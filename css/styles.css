@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+ 
+}
+
+#head{
+
+    background-color: aqua;
+    margin: 0 1%;
+    position: relative;
+    
+}
+#head::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+    line-height: 60px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 5px 20px;
+
+}
+.navbar ul li a {
+        text-decoration: none;
+
+    
+}
+a:hover{
+    color: crimson;
+    font-weight: bolder;
+   
+}
+.content{
+    background-color: darkgray;
+    float: left;
+    width: 50%;
+}
+.article{
+    float: left;
+    width: 50%;
+    background-color: dimgrey;
+}
